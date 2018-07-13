@@ -6,7 +6,7 @@ def bubble_sort(my_list):
     length = len(my_list)
 
     # We then loop through the list to sort it
-    for number in range(length):
+    for i in range(length):
         swapped = False
         # Use length-1 to avoid an index out of range error
         for index in range(length-1):
